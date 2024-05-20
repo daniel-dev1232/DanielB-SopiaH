@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recebido</title>
+    <link rel="stylesheet" href="recebido.css">
+</head>
+<body>
+    <h1>Abaixo, coloque o que está recebendo de receita bruta</h1>
+
+    <div class="form-receitas">
+        <form id="receitaForm">
+            <label for="valor">Valor:</label><br>
+            <input type="number" id="valor" name="valor" required><br><br>
+
+            <label for="data">Data:</label><br>
+            <input type="date" id="data" name="data" required><br><br>
+            
+            <label for="formaPagamento">Forma de Pagamento:</label><br>
+            <select id="formaPagamento">
+                <option value="Forma de pagamento">Forma de pagamento</option>
+                <option value="Pix">Pix</option>
+                <option value="Dinheiro">Dinheiro</option>
+                <option value="CC">Cartão de crédito</option>
+                <option value="CD">Cartão de débito</option>
+                <option value="BLT">Boleto</option>
+            </select><br><br>
+            
+            <label for="descricao">Descrição:</label><br>
+            <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea><br><br>
+            
+            <button id="resultado" type="submit">Registrar Receita</button>
+        </form>
+    </div>
+
+    <div  id="resultado">
+        <p id="valor"></p><br>
+        <p id="data"></p>
+        <p id="formaPagamento"></p>
+        <p id="descricao"></p>
+        <p id="valor"></p>
+    </div>
+
+    <script src="recebido.js"></script>
+</body>
+</html>

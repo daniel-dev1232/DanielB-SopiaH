@@ -1,0 +1,55 @@
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-receitas {
+    border-radius: 10px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(57, 57, 57, 0.8);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.654);
+}
+
+label, input, select, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+textarea, input, select
+{
+    color: #1e1e1e;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
